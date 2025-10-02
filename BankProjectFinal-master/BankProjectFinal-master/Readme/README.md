@@ -32,9 +32,9 @@ It allows you to bind data from your backend directly to your HTML templates, en
 ## UI Preview
 > **Sample of the Accounts Listing Page:**  
 
-![Accounts UI](./Screenshot-2025-10-02-194904.png)  
+images/Screenshot-2025-10-02-194904.png
 
-*Replace the screenshot path if needed (ensure the image is in your repo).*  
+*  
 
 ---
 
