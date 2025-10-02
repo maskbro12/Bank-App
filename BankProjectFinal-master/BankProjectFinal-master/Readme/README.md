@@ -31,8 +31,9 @@ It allows you to bind data from your backend directly to your HTML templates, en
 
 ## UI Preview
 > **Sample of the Accounts Listing Page:**  
-
-images/Screenshot-2025-10-02-194904.png
+<p align="center">
+  <img src="images/Screenshot-2025-10-02-194904.png" alt="Accounts Listing Page Screenshot" style="border-radius: 10px; box-shadow: 0 2px 8px #e0e0e0;">
+</p>
 
 *  
 
