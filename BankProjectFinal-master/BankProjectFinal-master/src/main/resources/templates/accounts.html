@@ -1,0 +1,47 @@
+<!-- Without CSS <!DOCTYPE html> -->
+<!-- <html xmlns:th="http://www.thymeleaf.org"> -->
+<!--   <body> -->
+<!--     <h1>Accounts Details</h1> -->
+<!--     <ul> -->
+<!--    <li th:each="acc : ${accounts}"> -->
+<!--    <span th:text="${acc.accountNumber}"></span>, -->
+<!--   Balance: <span th:text="${acc.balance}"></span>, -->
+<!--   Customer: <span th:text="${acc.cust.firstName}"></span> <span th:text="${acc.cust.lastName}"></span>, -->
+<!--   Bank: <span th:text="${acc.bank.bankName}"></span> -->
+<!-- </li> -->
+<!--     </ul> -->
+<!--   </body> -->
+<!-- </html> -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Accounts Details</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<div class="container">
+    <h1>Accounts Details</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Balance</th>
+                <th>Customer</th>
+                <th>Bank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="acc : ${accounts}">
+                <td th:text="${acc.accountNumber}">1</td>
+                <td th:text="${acc.balance}"></td>
+                <td>
+                    <span th:text="${acc.cust.firstName}"></span>
+                    <span th:text="${acc.cust.lastName}"></span>
+                </td>
+                <td th:text="${acc.bank.bankName}"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
